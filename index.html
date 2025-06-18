@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReactJS -TMDb Movie Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="container">
+        <div class="search-container">
+          <div class="search-container-logo">
+            <a href="./">
+              <img
+                src="./images/tmdb.svg"
+                class="logo"
+                alt="POWERED BY THE MOVIE DB"
+              />
+            </a>
+          </div>
+          <div class="searchbox">
+            <input
+              type="text"
+              class="searchbar"
+              placeholder="Search Movie Title..."
+            />
+          </div>
+        </div>
+        <div class="body">
+          <div class="poster-container">
+            <img
+              src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+              class="poster"
+              alt="INTERSTELLAR"
+            />
+          </div>
+          <div class="main-content">
+            <h1>INTERSTELLAR</h1>
+            <span class="introduction"
+              >Mankind was born on Earth. It was never meant to die here.</span
+            >
+            <p>
+              The adventures of a group of explorers who make use of a newly
+              discovered wormhole to surpass the limitations on human space
+              travel and conquer the vast distances involved in an interstellar
+              voyage.
+            </p>
+            <div class="additional-details">
+              <span class="genre-list">Adventure, Drama, Science Fiction</span>
+              <span class="production-list"
+                >Legendary Pictures, Syncopy, Lynda Obst Productions</span
+              >
+              <div class="release-details">
+                <div class="details">
+                  Original Release:
+                  <span class="date">2014-11-05</span>
+                </div>
+                <div class="details">
+                  Running Time:
+                  <span class="durations">169 mins</span>
+                </div>
+                <div class="details">
+                  Box Office:
+                  <span class="profit">$746,606,706</span>
+                </div>
+                <div class="details">
+                  Vote Average:
+                  <span class="points">8.455 / 10</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <span
+            ><a href="https://www.stephenkempin.co.uk/"
+              >Designed & developed by Stephen Kempin</a
+            ></span
+          >
+          <span>
+            <a
+              href="https://github.com/SKempin/reactjs-tmdb-app"
+              title="View Github Repo"
+              ><img
+                src="./images/github-brands.svg"
+                class="icon"
+                alt="github"
+              />
+              View Code</a
+            ></span
+          >
+          <span
+            ><a
+              href="https://play.google.com/store/apps/developer?id=SK+-+UK"
+              title="View SK-UK Google Play Store"
+              ><img
+                src="./images/android-brands.svg"
+                class="icon"
+                alt="android"
+              />
+              Developer Google Play Store</a
+            ></span
+          >
+          <span
+            ><a
+              href="https://apps.apple.com/gb/developer/stephen-kempin/id1451415928"
+              title="View SK-UK Apple App Store"
+              ><img src="./images/apple-brands.svg" class="icon" alt="apple" />
+              Developer Apple App Store</a
+            ></span
+          >
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(https://image.tmdb.org/t/p/original/l33oR0mnvf20avWyIMxW02EtQxn.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.search-container {
+  margin: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: lato, sans-serif;
+}
+
+.logo {
+  max-width: 100%;
+  width: 150px;
+}
+
+.searchbar {
+  text-emphasis-color: #fff;
+  max-width: 100%;
+  width: 350px;
+  border: none;
+  background: none;
+}
+
+.searchbox::after {
+  display: block;
+  content: "";
+  width: 350px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  /* width: 100%;
+  max-width: fit-content; */
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)); */
+}
+
+.main-content {
+  max-width: 500px;
+  padding: 25px;
+}
+
+.poster {
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  font-family: lato, sans-serif;
+  color: #fafafa;
+}
+
+.introduction {
+  display: block;
+  font-family: oswald, sans-serif;
+  color: #00fc87;
+}
+
+p {
+  font-family: lato, sans-serif;
+  color: #fafafa;
+}
+
+.genre-list,
+.production-list,
+.release-details {
+  font-family: oswald, sans-serif;
+}
+
+.genre-list {
+  color: #00fc87;
+  display: block;
+}
+
+.production-list {
+  display: block;
+  color: #fafafa;
+}
+
+.release-details {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.details {
+  display: grid;
+  color: #fafafa;
+}
+
+.date,
+.durations,
+.profit,
+.points {
+  color: #00fc87;
+}
+
+footer {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  padding: 30px 0;
+  width: 100%;
+}
+
+footer span {
+  display: block;
+  padding: 0 0 10px;
+}
+
+footer a {
+  color: gray;
+  transition: 0.7s;
+  padding: 8px;
+  text-decoration: none;
+}
+
+footer a:active,
+footer a:hover {
+  color: #00fc87;
+  transition: 0.7s;
+  text-decoration: underline;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
