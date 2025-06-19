@@ -2,6 +2,7 @@
   .search-container {
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
     text-align: center;
   }
 
@@ -22,7 +23,6 @@
 
   .poster {
     width: 100%;
-    max-width: 1000px;
   }
 
   .main-contents {
