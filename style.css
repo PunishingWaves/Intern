@@ -34,6 +34,9 @@ body {
 }
 
 .searchbar {
+  font-family: lato, sans-serif;
+  font-size: 1rem;
+  line-height: 1.25;
   text-emphasis-color: #fff;
   max-width: 100%;
   width: 200px;
@@ -49,12 +52,12 @@ body {
   background-color: #fff;
 }
 
-.body {
+.main-contents {
   display: flex;
   justify-content: center;
 }
 
-.main-content {
+.description {
   max-width: 500px;
   padding: 25px;
 }
@@ -141,6 +144,8 @@ footer {
   justify-content: center;
   padding: 30px 0;
   width: 100%;
+  font-family: lato, sans-serif;
+  font-size: 1rem;
 }
 
 footer span {

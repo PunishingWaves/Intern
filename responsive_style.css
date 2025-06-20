@@ -13,7 +13,7 @@
 }
 
 @media (max-width: 768px) {
-  .body {
+  .main-contents {
     flex-direction: column;
     flex-flow: column-reverse;
     justify-content: center;
@@ -23,9 +23,10 @@
 
   .poster {
     width: 100%;
+    max-width: 500px;
   }
 
-  .main-contents {
+  .description {
     padding: 15px;
   }
   h1 {
