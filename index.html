@@ -31,50 +31,55 @@
             <input
               type="text"
               class="searchbar"
+              id="searchbar-input"
               placeholder="Search Movie Title..."
             />
           </div>
+          <div class="search-bar-output" id="searchbar-output"></div>
         </div>
         <div class="main-contents">
           <div class="poster-container">
             <img
               src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
               class="poster"
+              id="film-poster"
               alt="INTERSTELLAR"
             />
           </div>
           <div class="description">
-            <h1>INTERSTELLAR</h1>
-            <span class="introduction"
+            <h1 id="movie-title">INTERSTELLAR</h1>
+            <span class="introduction" id="movie-introduction"
               >Mankind was born on Earth. It was never meant to die here.</span
             >
-            <p>
+            <p id="movie-overview">
               The adventures of a group of explorers who make use of a newly
               discovered wormhole to surpass the limitations on human space
               travel and conquer the vast distances involved in an interstellar
               voyage.
             </p>
             <div class="additional-details">
-              <span class="genre-list">Adventure, Drama, Science Fiction</span>
-              <span class="production-list"
+              <span class="genre-list" id="movie-genre-list"
+                >Adventure, Drama, Science Fiction</span
+              >
+              <span class="production-list" id="movie-production-list"
                 >Legendary Pictures, Syncopy, Lynda Obst Productions</span
               >
               <div class="release-details">
                 <div class="details">
                   Original Release:
-                  <span class="date">2014-11-05</span>
+                  <span class="date" id="film-release-date">2014-11-05</span>
                 </div>
                 <div class="details">
                   Running Time:
-                  <span class="durations">169 mins</span>
+                  <span class="duration" id="film-duration">169 mins</span>
                 </div>
                 <div class="details">
                   Box Office:
-                  <span class="profit">$746,606,706</span>
+                  <span class="profit" id="film-profit">$746,606,706</span>
                 </div>
                 <div class="details">
                   Vote Average:
-                  <span class="points">8.455 / 10</span>
+                  <span class="points" id="film-points">8.455 / 10</span>
                 </div>
               </div>
             </div>
