@@ -33,6 +33,10 @@ body {
   width: 150px;
 }
 
+.searchbox {
+  position: relative;
+}
+
 .searchbar {
   font-family: lato, sans-serif;
   font-size: 1rem;
